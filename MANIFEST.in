@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include zh_pinto *.css
+recursive-include zh_pinto *.csv
+recursive-include zh_pinto *.html
+recursive-include zh_pinto *.ico
+recursive-include zh_pinto *.js
+recursive-include zh_pinto *.json
+recursive-include zh_pinto *.md
+recursive-include zh_pinto *.png
+recursive-include zh_pinto *.py
+recursive-include zh_pinto *.svg
+recursive-include zh_pinto *.txt
+recursive-exclude zh_pinto *.pyc
